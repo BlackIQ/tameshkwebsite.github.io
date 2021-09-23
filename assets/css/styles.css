@@ -1,0 +1,64 @@
+@font-face {
+  font-family: bg;
+  src: url("../fonts/BG/BrandonGrotesque-Regular.ttf");
+}
+
+@font-face {
+  font-family: bg-bold;
+  src: url("../fonts/BG/BrandonGrotesque-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: bg;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  border-radius: 30px;
+  border: #d444d4 solid 1.5px;
+  background-color: #d444d4;
+  box-shadow: rgb(190, 190, 190) 2px 1px 5px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  color: black;
+  margin-right: 30px;
+  font-size: 11px;
+  font-family: bg-bold;
+  /* font-weight: 900; */
+  transition: .3s;
+  letter-spacing: .3px;
+}
+
+.nav-items:hover {
+  color: #bd3787;
+}
+
+.tameshk {
+  width: 60px;
+  height: 75px;
+}
