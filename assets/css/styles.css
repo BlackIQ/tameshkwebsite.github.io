@@ -149,10 +149,13 @@ nav > ul {
 }
 
 .footer {
+  position: fixed;
   text-align: center;
   background-color: #2c3157;
   color: white;
   padding: 10px;
+  bottom: 0;
+  width: 100%;
 }
 
 .love {
@@ -164,4 +167,9 @@ nav > ul {
 .sina-yeganeh {
   font-family: bg-bold;
   text-decoration: underline solid #d444d4;
+}
+
+/* About */
+.tameshk-about {
+  width: 90%;
 }
